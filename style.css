@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    font-family :sans-serif ;
+}
+body {
+    background-color: #0a0a29;
+
+}
+header {
+    background-color: #07071a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 2px 2px 2px 4px gray;
+}
+header .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+header .head  i {
+    display: none;
+}
+header .head  .logo {
+    color: aqua;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+header .head  .logo:hover {
+    color: white;
+    padding: 10px;
+}
+header .head  .logo span {
+    color: rgb(255, 255, 255);
+}
+
+
+nav a{
+   margin-left: 15px;
+   text-decoration: none;
+   color: aqua;
+   font-size: 22px;
+   font-weight: 200;
+}
+nav a:hover
+ {
+    color: red;
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+}
+/* nav #home {
+    color: red;
+} */
+.first_section {
+    height: auto;
+    width: 100%;
+    background-color: #0a0a29;
+    display: block;
+}
+.first_section .hero_section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+
+}
+.first_section .hero_section img {
+    box-shadow: 2px 2px 2px 6px aqua;
+    border:  2px solid aqua;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.first_section .hero_section .about_me {
+    color: white;
+}
+.first_section .hero_section .about_me .hello {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.first_section .hero_section .about_me .hello h3 {
+   text-shadow: 3px 3px 3px  red ;
+}
+
+
+.first_section .hero_section .about_me  h1 {
+    color: aqua;
+    text-shadow: 0.9px 0.8px 0.7px   gold ;
+    box-shadow: 2px 3px 4px red;
+    border-radius: 50px;
+    font-size: 56px;
+
+    
+}
+.first_section .hero_section .about_me  p {
+    text-align: center;
+    margin-top: 20px;
+}
+.first_section .hero_section .about_me .icons {
+    text-align: center;
+}
+.first_section .hero_section .about_me .icons i {
+    color: aqua;
+    font-size: 40px;
+    margin-left: 20px;
+    border-radius: 50px;
+    
+}
+
+.first_section .hero_section .about_me .down_cv {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+}
+.first_section .hero_section .about_me .down_cv button {
+    background-color: aqua;
+    margin: 3px;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border: 0.5px solid aqua;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px  aquamarine;
+}
+
+.first_section .hero_section .about_me .down_cv  a{
+    text-decoration: none;
+    color: black;
+}
+
+.first_section .hero_section .about_me .down_cv button:hover{
+    background: none;
+    color: aqua;
+}
+
+
+/* end section  */ 
+
+
+
+/* start section */
+
+
+.second_section {
+    background-color: #0a0a29;
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 3px solid aqua;
+    margin-top: 20px;
+}
+
+.second_section .skils {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.second_section .skils .cors {
+    text-align: center;
+    color: aqua;
+    font-size: 56px;
+    margin: 20px;
+}
+.second_section .skils div {
+   
+    margin: 5px;
+    width: auto;
+    height: auto;
+    background-color: rgba(0, 0.2, 0.3, 0.1);
+    border: 0.5px solid aqua;
+    flex-wrap: wrap;
+    color: white;
+    text-align: center;
+}
+.second_section .skils div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin: 5px;
+}
+
+
+
+/* end section two */
+
+
+
+
+
+
+
+
+
+/* start third section */
+
+ .third_section {
+    position: relative;
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+    background-image: url(img/cir.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+} 
+.third_section .third_sec {
+color: white;
+}
+
+.third_section .third_sec .form {
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+   
+
+}
+
+
+.third_section .third_sec .form h1 {
+    margin-bottom: 50px;
+}
+.third_section .third_sec .form form {
+border: 2px solid aqua;
+align-items: center;
+text-align: center;
+border-radius: 50px;
+padding: 20px;
+margin: 20px;
+width: 500px;
+} 
+.third_section .third_sec .form form label {
+    color: aqua;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 4px;
+}
+.third_section .third_sec .form form input {
+    margin-top: 20px;
+    align-items: center;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    border: 2px solid  aqua;
+    background: none;
+    margin-left: 10px;
+    width: 100%;
+}
+.third_section .third_sec .form form input:hover {
+    border-color: gold;
+}
+.third_section .third_sec .form form textarea {
+    background: none;
+    border: 0.5px solid aqua;
+    color: white;
+    text-align: center;
+    width: 70%;
+    
+}
+.third_section .third_sec .form form textarea::placeholder {
+    color: red;
+    margin-top: 10px;
+}
+
+
+
+/* end section */
+
+
+
+
+/* start four section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end third section */
+
+ .furth_section {
+
+}
+
+.furth_section  .four_sec {
+color: aqua;
+
+
+}
+
+.furth_section  .four_sec h1{
+    text-align: center;
+    margin-top: 30px;
+    text-shadow: 3px 3px 3px red;
+}
+.furth_section  .four_sec .english {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.furth_section  .four_sec .english .card {
+    margin-left: 15px;
+    width: 300px;
+    text-align: center;
+    background-color: #07071a;
+    border: 0.3px solid aqua;
+    box-shadow: 4px 4px 4px gold;
+    border-radius: 50px;
+    
+}
+.furth_section  .four_sec .english .card i {
+    font-size: 100px;
+    margin-top: 10px;
+    color: aqua;
+    
+}
+.furth_section  .four_sec .english .card  .card-body h1 {
+    margin-bottom: 30px;
+    color: aqua;
+    
+}
+.furth_section  .four_sec .english .starts i {
+ color: gold;
+ font-size: 30px;
+ 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width :820px) { 
+    
+    header {
+        display: block;
+    }
+    header .head i {
+        display: block;
+        font-size: 50px;
+    }
+   
+    nav {
+        display: none;
+    }
+    .first_section .hero_section {
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+    .first_section .hero_section img {
+      width: 70%;
+      align-items: center;
+    
+    
+    }
+    .first_section .hero_section .about_me .hello {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .first_section .hero_section .about_me  h1 {
+        font-size: 40px;
+    }
+    .first_section .hero_section .about_me p{
+        margin-top: 20px;
+    }
+
+    .third_section .third_sec .form form {
+        width: auto;
+
+    }
+
+    .third_section .third_sec {
+        display: block;
+    }
+
+    .furth_section .four_sec .english {
+        display: block;
+        text-align: center;
+    }
+    .furth_section .four_sec .Educational {
+        margin-top: 100px;
+    }
+    .furth_section .four_sec .english .card {
+        margin: 20px;
+    }
+}
+
+ 
+@media (min-width: 300px) and (max-width :520px) {
+    .second_section .skils div {
+        width: 100%;
+    }
+    
+    
+}
